@@ -16,25 +16,26 @@ function generatePassword() {
   var upperCaseQuery = confirm("Include Uppercase Letters?     OK = YES / Cancel = NO");
   var upperCase = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
   if (upperCaseQuery === true) {
-    possibleCharacters.push(upperCase);
+    possibleCharacters = possibleCharacters.concat(upperCase);
   }
+  console.log(upperCaseQuery);
 
   var lowerCaseQuery = confirm("Include Lowercase Letters?     OK = YES / Cancel = NO");
   var lowerCase = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
   if (lowerCaseQuery === true) {
-    possibleCharacters.push(lowerCase);
+    possibleCharacters = possibleCharacters.concat(lowerCase);
   }
 
   var numberQuery = confirm("Include Numbers?     OK = YES / Cancel = NO");
   var numbers = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
   if (numberQuery === true) {
-    possibleCharacters.push(numbers);
+    possibleCharacters = possibleCharacters.concat(numbers);
   }
 
   var specialQuery = confirm("Include Special Characters?     OK = YES / Cancel = NO");
   var specialCharacters = ["!", "“", "#", "$", "%", "&", "'", "(", ")", "*", "+", ",", "-", ".", "/", ":", ";", "<", "=", ">", "?", "@", "[", "]", "^", "_", "`", "{", "|", "}", "~"]
   if (specialQuery === true) {
-    possibleCharacters.push(specialCharacters);
+    possibleCharacters = possibleCharacters.concat(specialCharacters);
   }
 
   if (possibleCharacters.length === 0) {

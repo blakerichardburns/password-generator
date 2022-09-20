@@ -46,8 +46,7 @@ function generatePassword() {
   for (var i = 0; i < numCharacters; i++) {
     shinyNewPassword += possibleCharacters[Math.floor(Math.random()*possibleCharacters.length)];
   }
-  // return shinyNewPassword
-  console.log(shinyNewPassword);
+  return shinyNewPassword
 }
 
 function writePassword() {

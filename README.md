@@ -1,5 +1,9 @@
 # code-refactor-password-generator
 
+https://blakerichardburns.github.io/code-refactor-password-generator/
+
+https://user-images.githubusercontent.com/111099915/191161712-b283185f-f547-4863-a6bd-11ac90249d07.png
+
 ## Description
 Week 3 Challenge: JavaScript
 Code refactor to add interactive functionality to a random password generator.

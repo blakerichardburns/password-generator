@@ -4,7 +4,7 @@ Module 3 Challenge: JavaScript
 ![Alt text](./assets/screenshot.JPG "Screenshot")
 
 ## Repository Link
-https://blakerichardburns.github.io/code-refactor-password-generator/
+https://github.com/blakerichardburns/password-generator
 
 ## Description
 Code refactor to add interactive functionality to a random password generator.

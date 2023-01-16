@@ -3,6 +3,9 @@ Module 3 Challenge: JavaScript
 
 ![Alt text](./assets/screenshot.JPG "Screenshot")
 
+## Live Link
+https://blakerichardburns.github.io/password-generator/
+
 ## Repository Link
 https://github.com/blakerichardburns/password-generator
 
